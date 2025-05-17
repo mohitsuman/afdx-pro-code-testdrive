@@ -5,8 +5,8 @@
       "default": true
     }
   ],
-  "name": "dx-empty",
+  "name": "afdx-pro-code-testdrive",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "62.0"
+  "sourceApiVersion": "63.0"
 }
