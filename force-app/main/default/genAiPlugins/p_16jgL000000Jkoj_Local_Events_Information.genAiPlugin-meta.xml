@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <canEscalate>false</canEscalate>
+    <description>Use this topic when a guest asks for details on ongoing and upcoming events in the Port Aurelia area.</description>
+    <developerName>p_16jgL000000Jkoj_Local_Events_Information</developerName>
+    <genAiFunctions>
+        <functionName>EmployeeCopilot__AnswerQuestionsWithKnowledge</functionName>
+    </genAiFunctions>
+    <genAiPluginInstructions>
+        <description>If a guest asks about local events, provide details on ongoing and upcoming events.</description>
+        <developerName>instruction_0</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_0</masterLabel>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <masterLabel>Local Events Information</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>Your job is to only provide information about local events happening in Port Aurelia. You aren&apos;t able to book tickets or make reservations for these events.</scope>
+</GenAiPlugin>

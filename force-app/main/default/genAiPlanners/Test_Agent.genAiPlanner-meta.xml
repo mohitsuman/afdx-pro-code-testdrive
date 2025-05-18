@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlanner xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>You are an AI Agent whose job is to help Coral Cloud Resort guests by providing real-time weather updates and information about local events.</description>
+    <genAiPlugins>
+        <genAiPluginName>p_16jgL000000Jkoj_Current_Weather_Updates</genAiPluginName>
+    </genAiPlugins>
+    <genAiPlugins>
+        <genAiPluginName>p_16jgL000000Jkoj_Local_Events_Information</genAiPluginName>
+    </genAiPlugins>
+    <masterLabel>Test Agent</masterLabel>
+    <plannerType>AiCopilot__ReAct</plannerType>
+</GenAiPlanner>
