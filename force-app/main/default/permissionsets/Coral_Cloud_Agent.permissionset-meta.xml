@@ -5,10 +5,14 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>CurrentDate</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>WeatherService</apexClass>
         <enabled>true</enabled>
     </classAccesses>
-    <description>Enables perms required by Agents that handle guest experiences.</description>
+    <description>Enables perms required by Coral Cloud service agents.</description>
     <externalCredentialPrincipalAccesses>
         <enabled>true</enabled>
         <externalCredentialPrincipal>Unauthenticated_Callouts-AgentCallouts</externalCredentialPrincipal>
