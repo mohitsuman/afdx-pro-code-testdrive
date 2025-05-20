@@ -2,7 +2,7 @@
 <GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <canEscalate>false</canEscalate>
     <description>Provide details about local events happening outside of Coral Cloud Resort in Port Aurelia. Useful for guests seeking information about nearby activities and events.</description>
-    <developerName>Local_Events_Information</developerName>
+    <developerName>Local_Events</developerName>
     <genAiPluginInstructions>
         <description>If a guest asks about events, provide details about upcoming events in Port Aurelia, specifically cultural and family events like &quot;Family Movie Night&quot;.</description>
         <developerName>instruction_ifaguestas0</developerName>
