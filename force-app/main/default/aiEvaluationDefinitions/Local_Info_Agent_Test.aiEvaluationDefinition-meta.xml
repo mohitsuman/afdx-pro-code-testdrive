@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <AiEvaluationDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
-    <description>Functional tests for the Local Info agent</description>
+    <description>Functional tests for the Local Info agent.</description>
     <name>Local Info Agent Tests</name>
     <subjectName>Local_Info_Agent</subjectName>
     <subjectType>AGENT</subjectType>
@@ -14,7 +14,7 @@
             <name>action_sequence_match</name>
         </expectation>
         <expectation>
-            <expectedValue>The user has not indicated their interests. They should be politely prompted for them. Doing so results in a complete response because the agent MUST know the user&apos;s interests. The agent should NOT provide information about events without knowing the user&apos;s interests first.</expectedValue>
+            <expectedValue>Because the user has not indicated their interests, they should be politely prompted for them. The agent should NOT provide information about events without knowing the user&apos;s interests first.</expectedValue>
             <name>bot_response_rating</name>
         </expectation>
         <expectation>
