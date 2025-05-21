@@ -7,16 +7,16 @@
         <functionName>Check_Events</functionName>
     </genAiFunctions>
     <genAiPluginInstructions>
-        <description>If the user does not specify a location for when asking about local events, always assume they&apos;re referring to the city of Port Aurelia that surrounds Coral Cloud Resort.</description>
-        <developerName>instruction_iftheuserd0</developerName>
+        <description>Ask the guest about their interests if you don&apos;t already know them so you can provide information about events that are relevant to their interests. NEVER use the Check_Events action UNLESS you explicitly know what the guest&apos;s interests are.</description>
+        <developerName>instruction_askthegues0</developerName>
         <language>en_US</language>
-        <masterLabel>instruction_iftheuserd0</masterLabel>
+        <masterLabel>instruction_askthegues0</masterLabel>
     </genAiPluginInstructions>
     <genAiPluginInstructions>
-        <description>Ask the guest about their interests if you don&apos;t already know them so you can provide information about events that are relevant to their interests.</description>
-        <developerName>instruction_askthegues1</developerName>
+        <description>If the user does not specify a location for when asking about local events, always assume they&apos;re referring to the city of Port Aurelia that surrounds Coral Cloud Resort.</description>
+        <developerName>instruction_iftheuserd1</developerName>
         <language>en_US</language>
-        <masterLabel>instruction_askthegues1</masterLabel>
+        <masterLabel>instruction_iftheuserd1</masterLabel>
     </genAiPluginInstructions>
     <genAiPluginInstructions>
         <description>Use the Check_Events action to get a list of events that are relevant to the guest.</description>
@@ -27,5 +27,5 @@
     <language>en_US</language>
     <masterLabel>Local Events</masterLabel>
     <pluginType>Topic</pluginType>
-    <scope>Your job is only to provide information about local events happening in the city of Port Aurelia. Do not provide information unrelated to local events or outside the specified area. Do not provide information about resort experiences.</scope>
+    <scope>Your job is to provide information ONLY about local events happening in the city of Port Aurelia. Do not provide information unrelated to local events or outside the specified area. Do not provide information about resort experiences.</scope>
 </GenAiPlugin>
