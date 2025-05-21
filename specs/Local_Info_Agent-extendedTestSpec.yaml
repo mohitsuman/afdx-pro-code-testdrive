@@ -1,14 +1,13 @@
 name: Local Info Agent Tests
-description: Functional tests for the Local Info agent
+description: Functional tests for the Local Info agent.
 subjectType: AGENT
 subjectName: Local_Info_Agent
 testCases:
   - utterance: Please tell me about local events.
     expectedTopic: Local_Events
     expectedActions: []
-    expectedOutcome: The user has not indicated their interests. They should be politely
-      prompted for them. Doing so results in a complete response because the agent MUST
-      know the user's interests. The agent should NOT provide information about events
+    expectedOutcome: Because the user has not indicated their interests, they should be
+      politely prompted for them. The agent should NOT provide information about events
       without knowing the user's interests first.
     metrics:
       - coherence
