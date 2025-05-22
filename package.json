@@ -9,25 +9,13 @@
         "test:unit": "sfdx-lwc-jest",
         "test:unit:watch": "sfdx-lwc-jest --watch",
         "test:unit:debug": "sfdx-lwc-jest --debug",
-        "test:unit:coverage": "sfdx-lwc-jest --coverage",
-        "precommit": "lint-staged"
-    },
-    "lint-staged": {
-        "**/*.{cls,cmp,component,css,html,js,json,md,page,trigger,xml,yaml,yml}": [
-            "prettier --write"
-        ],
-        "**/lwc/**/*.js": [
-            "eslint"
-        ],
-        "**/lwc/**": [
-            "sfdx-lwc-jest -- --bail --findRelatedTests --passWithNoTests"
-        ]
+        "test:unit:coverage": "sfdx-lwc-jest --coverage"
     },
     "author": "Vivek M. Chawla",
     "license": "CC0-1.0",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/vivekmchawla/coral-cloud-afdx"
+        "url": "git+https://github.com/vivekmchawla/afdx-pro-code-testdrive"
     },
     "devDependencies": {
         "@lwc/eslint-plugin-lwc": "^2.1.0",
@@ -39,7 +27,6 @@
         "eslint": "^8.57.1",
         "eslint-plugin-import": "^2.31.0",
         "eslint-plugin-jest": "^28.11.0",
-        "lint-staged": "^15.4.3",
         "prettier": "^3.5.2",
         "prettier-plugin-apex": "^2.2.4"
     },
