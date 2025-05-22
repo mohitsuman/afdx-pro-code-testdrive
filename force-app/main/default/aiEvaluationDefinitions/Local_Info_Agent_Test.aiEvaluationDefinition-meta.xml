@@ -21,6 +21,9 @@
             <name>coherence</name>
         </expectation>
         <expectation>
+            <name>completeness</name>
+        </expectation>
+        <expectation>
             <name>conciseness</name>
         </expectation>
         <expectation>
