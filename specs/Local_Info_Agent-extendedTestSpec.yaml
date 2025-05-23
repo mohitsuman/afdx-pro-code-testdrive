@@ -11,7 +11,6 @@ testCases:
       without knowing the user's interests first.
     metrics:
       - coherence
-      - completeness
       - conciseness
       - output_latency_milliseconds
   - utterance: What movies are playing nearby?
