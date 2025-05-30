@@ -1,0 +1,12 @@
+{
+  "servers": {
+    "salesforce": {
+      "command": "node",
+      "args": [
+        "/Users/vchawla/salesforcecli/mcp/lib/index.js", 
+        "--toolsets", 
+        "all", 
+        "ALLOW_ALL_ORGS"]
+    }
+  }
+}
