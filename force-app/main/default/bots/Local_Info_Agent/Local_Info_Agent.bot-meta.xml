@@ -5,7 +5,6 @@
         <label>Local Info Agent</label>
         <name>Local_Info_Agent</name>
     </botMlDomain>
-    <botUser>local_info_agent@00dgl000003lylm.ext</botUser>
     <contextVariables>
         <contextVariableMappings>
             <SObjectType>MessagingSession</SObjectType>
