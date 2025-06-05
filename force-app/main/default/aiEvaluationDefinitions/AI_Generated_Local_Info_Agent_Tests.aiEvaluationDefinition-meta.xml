@@ -4,7 +4,6 @@
     <name>AI Generated Local Info Agent Tests</name>
     <subjectName>Local_Info_Agent</subjectName>
     <subjectType>AGENT</subjectType>
-    <subjectVersion>v1</subjectVersion>
     <testCase>
         <expectation>
             <expectedValue>Local_Weather</expectedValue>
