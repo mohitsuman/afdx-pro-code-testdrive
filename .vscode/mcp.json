@@ -1,12 +1,11 @@
 {
   "servers": {
     "salesforce": {
-      "command": "node",
+      "command": "npx",
       "args": [
-        "/Users/vchawla/salesforcecli/mcp/lib/index.js", 
-        "--toolsets", 
-        "all", 
-        "ALLOW_ALL_ORGS"]
+        "-y", "@salesforce/mcp", 
+        "--orgs", "DEFAULT_TARGET_ORG",
+        "--toolsets", "all"]
     }
   }
 }
