@@ -6,6 +6,10 @@
     </types>
     <types>
         <members>*</members>
+        <name>ContentAsset</name>
+    </types>
+    <types>
+        <members>*</members>
         <name>CustomApplication</name>
     </types>
     <types>
@@ -55,10 +59,6 @@
     <types>
         <members>*</members>
         <name>ListView</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>MessagingChannel</name>
     </types>
     <types>
         <members>*</members>
