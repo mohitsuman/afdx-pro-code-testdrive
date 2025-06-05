@@ -22,9 +22,13 @@
    ```
    sf project deploy start --manifest manifests/EverythingExceptAgents.package.xml
    ```
-3. Deploy agents with tests.
+3. Deploy agents.
    ```
-   sf project deploy start --manifest manifests/AgentsWithTests.package.xml
+   sf project deploy start --manifest manifests/Agents.package.xml
+   ```
+4. Deploy agent tests.
+   ```
+   sf project deploy start --manifest manifests/AgentTests.package.xml
    ```
 
 ### STEP THREE: Configure the Agent User for the Local Info Agent
