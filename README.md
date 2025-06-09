@@ -7,7 +7,7 @@
 2. Once you have a DE org, enable the following features **IN ORDER**
    - **Knowledge** *(Setup > Knowledge > Knowledge Settings)*
    - **Data Cloud** *(Setup > Data Cloud > Data Cloud Setup Home)*
-     - ![Data Cloud setup can take up to 30-60 minutes to complete. DO NOT proceed until the setup process is finished.](images/data-cloud-setup-wait.png)
+     - ![Data Cloud setup can take up to 30-60 minutes to complete. DO NOT proceed until the setup process is finished.](images/data-cloud-setup.png)
    - **Einstein** *(Setup > Einstein > Einstein Generative AI > Einstein Setup)*
      - Reload your browser tab after enabling Einstein so Agentforce becomes available in your Setup tree.
    - **Agentforce** *(Setup > Einstein > Einstein Generative AI > Agentforce Studio > Agentforce Agents)*
