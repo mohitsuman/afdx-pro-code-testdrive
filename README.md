@@ -84,6 +84,10 @@ sf org open agent --api-name Local_Info_Agent
    ```
    sf org login web -a AgentPreview --client-id PASTE_CONSUMER_KEY_FROM_AGENT_PREVIEW_CONNECTED_APP
    ```
+7. Confirm everything was set up correctly by previewing the Local Info Agent from the CLI.
+   ```
+   sf agent preview -a AgentPreview
+   ```
 ---
 
 ## Things You Should Try After Setting Up Your Org
