@@ -61,7 +61,12 @@ sf org open agent --api-name Local_Info_Agent
 ### STEP FIVE: Authenticate an "Agent Preview" user with a JWT-based auth token
 1. Create a SysAdmin user with your email address.
    - Make sure to activate this user and set a password for it.
-2. Retrieve 
+2. Retrieve the `Agent_Preview` Connected App from your org.
+   ```
+   sf project retrieve start -m ConnectedApp:Agent_Preview
+   ```
+3. Copy the `consumerKey` on line 8.
+
 
 Mac/Linux
 ```
