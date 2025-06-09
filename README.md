@@ -30,7 +30,7 @@
    sf project deploy start --manifest manifests/AgentTests.package.xml
    ```
 
-### STEP THREE: Configure the Agent User for the Local Info Agent
+### STEP THREE: Configure the AFDX TestDrive Agent User
 1. Get the ID of the **Einstein Agent User** profile in your org.
    ```
    sf data query -q "SELECT Id FROM Profile WHERE Name='Einstein Agent User'"
@@ -38,12 +38,30 @@
 2. Update `data-import/User.json` as follows:
    ![Update line 8 with the Einstein Agent User profile ID from the previous step. Update line 9 with something unique to you to ensure a globally unique username is specified.](images/agent-user-data-import.png)
 
-2. Create an AFDX Test Drive agent user.
+3. Create the AFDX TestDrive Agent user with the CLI.
+```
+sf data import tree --files data-import/User.json
+```
+4. Assign permissions to the AFDX TestDrive Agent user with the CLI.
+```
+sf org assign permset -n AFDX_Service_Agent_Perms -b USERNAME_OF_YOUR_AFDX_TESTDRIVE_AGENT
+```
 
--- MORE STEPS TO ADD -- 
+### STEP FOUR: Configure the **Local Info Agent**
+1. Open the `Local_Info_Agent` in Agent Builder.
+```
+sf org open agent --api-name Local_Info_Agent
+```
+2. Open the settings and set **Agent User** to your AFDX TestDrive Agent user.
+   ![Click the Settings button near the top-right of Agent Builder, then set the Agent User to your AFDX TestDrive user and click "Save"](images/set-local-info-agent-user.png)
+3. Exit Agent Builder, view Agent Details for the **Local Info Agent**, and create a new API connection using the `Agent_Preview` Connected App.
+   ![From the Agent Detials page for the Local Info Agent, click the Connections tab, then click the Add button at the bottom right of the page.](images/agent-connection-settings.png)
+   ![Create a new API connection called "CLI Agent Preview" and use the "Agent Preview" connected app.](images/agent-preview-connection-details.png)
 
----
-
+### STEP FIVE: Authenticate an "Agent Preview" user with a JWT-based auth token
+1. Create a SysAdmin user with your email address.
+   - Make sure to activate this user and set a password for it.
+2. Retrieve 
 
 Mac/Linux
 ```
@@ -60,9 +78,7 @@ sf org login web -a AgentPreview --client-id PASTE_CONSUMER_KEY_FROM_AGENT_PREVI
 ```
 
 
-
-
-
+---
 
 ## Things You Should Try
 
