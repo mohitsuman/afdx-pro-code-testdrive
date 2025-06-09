@@ -31,11 +31,36 @@
    ```
 
 ### STEP THREE: Configure the Agent User for the Local Info Agent
-1. Use the Agent Builder to assign an agent user.
+1. Get the ID of the **Einstein Agent User** profile in your org.
+   ```
+   sf data query -q "SELECT Id FROM Profile WHERE Name='Einstein Agent User'"
+   ```
+2. Update 
+2. Create an AFDX Test Drive agent user.
 
 -- MORE STEPS TO ADD -- 
 
 ---
+
+
+Mac/Linux
+```
+export SFDX_AUTH_SCOPES="refresh_token sfap_api chatbot_api web api"
+```
+Windows
+```
+$Env:SFDX_AUTH_SCOPES = 'sfap_api chatbot_api api refresh_token api web'
+```
+
+Next
+```
+sf org login web -a AgentPreview --client-id PASTE_CONSUMER_KEY_FROM_AGENT_PREVIEW_CONNECTED_APP
+```
+
+
+
+
+
 
 ## Things You Should Try
 
