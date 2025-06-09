@@ -7,6 +7,8 @@
 2. Once you have a DE org, enable the following features **IN ORDER**
    - **Knowledge** *(Setup > Knowledge > Knowledge Settings)*
    - **Data Cloud** *(Setup > Data Cloud > Data Cloud Setup Home)*
+     - ![Data Cloud Setup](images/data-cloud-setup-start.png)
+     - ![Data Cloud Setup](images/data-cloud-setup-wait.png)
      - This can take up to 30 minutes to complete
      - DO NOT proceed until the setup process is finished
    - **Einstein** *(Setup > Einstein > Einstein Generative AI > Einstein Setup)*
