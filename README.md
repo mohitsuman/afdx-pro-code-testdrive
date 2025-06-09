@@ -35,7 +35,9 @@
    ```
    sf data query -q "SELECT Id FROM Profile WHERE Name='Einstein Agent User'"
    ```
-2. Update 
+2. Update `data-import/User.json` as follows:
+   ![Update line 8 with the Einstein Agent User profile ID from the previous step. Update line 9 with something unique to you to ensure a globally unique username is specified.](images/agent-user-data-import.png)
+
 2. Create an AFDX Test Drive agent user.
 
 -- MORE STEPS TO ADD -- 
