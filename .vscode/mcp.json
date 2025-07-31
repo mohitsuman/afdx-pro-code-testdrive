@@ -1,9 +1,9 @@
 {
   "servers": {
-    "salesforce": {
+    "Salesforce DX": {
       "command": "npx",
       "args": [
-        "-y", "@salesforce/mcp", 
+        "-y", "@salesforce/mcp@latest", 
         "--orgs", "DEFAULT_TARGET_ORG",
         "--toolsets", "all"]
     }
